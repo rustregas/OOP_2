@@ -1,12 +1,9 @@
 package pro.sky.java.course2;
 
-public class Truck {
+public class Truck extends Vehicle {
 
-    public String modelName;
-    public int wheelsCount;
-
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
+    public Truck(String modelName, int wheelCount){
+        super(modelName, wheelCount);
     }
 
     public void checkEngine() {
